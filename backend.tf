@@ -1,6 +1,6 @@
 terraform {
     backend "s3"{
-        bucket = "infrastructure-april-farrukh"
+        bucket = "terraform-state-mybucket-nadira"
         region =  "us-east-1"
         key = "infra.state"
     }
